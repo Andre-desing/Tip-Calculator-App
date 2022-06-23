@@ -57,6 +57,8 @@ body {
     position: absolute;
     top: 13%;
     left: 10px;
+    display: none;
+    /* change this display later */
 }
 
 input[type="number"] {
@@ -138,7 +140,7 @@ input::-webkit-inner-spin-button {
 
 input[type="numeric"] {
     background-color: #F4FAFA;
-    border: ;
+
 }
 
 /* This is placing the 0 to the right */
@@ -248,7 +250,6 @@ input::-webkit-inner-spin-button {
         height: 800px;
         background-color: white;
         border-radius: 20px;
-
     }
 
 }

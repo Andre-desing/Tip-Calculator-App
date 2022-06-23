@@ -25,15 +25,15 @@
             </div>
             <div>
                 <img class="bill-icon" src="images/icon-dollar.svg" alt="">
-                <input type="number" id="bill-amount" step="0.1" placeholder="0      ">
+                <input type="number" id="bill-amount" step="0.1" placeholder="0">
             </div>
             <div id="tip-buttons">
                 <div id="select-tip">Select Tip %</div>
-                <button class="percentage-btn">5%</button>
-                <button class="percentage-btn">10%</button>
-                <button class="percentage-btn">15%</button>
-                <button class="percentage-btn">25%</button>
-                <button class="percentage-btn">50%</button>
+                <button class="percentage-btn" value=".05">5%</button>
+                <button class="percentage-btn" value=".10">10%</button>
+                <button class="percentage-btn" value=".15">15%</button>
+                <button class="percentage-btn" value=".25">25%</button>
+                <button class="percentage-btn" value=".50">50%</button>
                 <input class="custom-tip-input" type="numeric" name="custom" placeholder="Custom" min="0" max="100"
                     value="0">
             </div>
@@ -55,6 +55,9 @@
             <button id="button-reset">RESET</button>
         </div>
     </section>
+    <script src="app.js"></script>
 </body>
 
 </html>
+
+<span></span>
