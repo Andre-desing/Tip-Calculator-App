@@ -61,14 +61,19 @@ body {
     /* change this display later */
 }
 
-input[type="number"] {
+#bill-amount {
     background-color: #F4FAFA;
+    padding-left: 30px;
+}
+
+#people-amount {
+    background-color: #F4FAFA;
+    padding-left: 30px;
 }
 
 /* This is placing the 0 to the right */
 input[type="number"]::placeholder {
     text-align: right;
-
 }
 
 /* this removes the arrows from the box */
@@ -140,7 +145,7 @@ input::-webkit-inner-spin-button {
 
 input[type="numeric"] {
     background-color: #F4FAFA;
-
+    /*border: ;*/
 }
 
 /* This is placing the 0 to the right */
